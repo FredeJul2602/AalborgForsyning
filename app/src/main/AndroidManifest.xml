@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AalborgForsyning">
         <activity
-            android:name=".MainActivity3"
+            android:name=".AboutUs"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Dashboard"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
