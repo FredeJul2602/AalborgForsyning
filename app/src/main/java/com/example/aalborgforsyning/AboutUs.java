@@ -47,6 +47,7 @@ public class AboutUs extends AppCompatActivity {
         // close app
         MainActivity.logout(this);
     }
+    //hej
 
     @Override
     protected void onPause() {
