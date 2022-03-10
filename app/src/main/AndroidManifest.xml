@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AalborgForsyning">
         <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

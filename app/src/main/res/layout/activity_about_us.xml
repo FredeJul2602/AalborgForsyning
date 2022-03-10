@@ -6,23 +6,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/drawer_layout"
-    tools:context=".MainActivity">
+    tools:context=".AboutUs">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-    <include
-        layout="@layout/main_toolbar"/>
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Home"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        android:gravity="center"/>
-</LinearLayout>
+        android:orientation="vertical">
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="300dp"
@@ -30,8 +30,7 @@
         android:layout_gravity="start"
         android:background="@android:color/white">
 
-        <include layout="@layout/main_nav_drawer" />
-
+        <include
+            layout="@layout/main_nav_drawer"/>
     </RelativeLayout>
-
 </androidx.drawerlayout.widget.DrawerLayout>
