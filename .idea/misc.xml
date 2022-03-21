@@ -4,11 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/augus/AalborgForsyning/app/src/main/res/layout/activity_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/drawable/ic_dashboard.xml" value="0.2285" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/drawable/ic_power.xml" value="0.2285" />
         <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/activity_about_us.xml" value="0.27447916666666666" />
-        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/activity_dashboard.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
         <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/activity_main3.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/activity_test1.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/activity_test2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/grid_layout.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/main_nav_drawer.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/main_toolbar.xml" value="0.4" />
+        <entry key="..\:/Users/augus/AndroidStudioProjects/AalborgForsyning/app/src/main/res/layout/row_item.xml" value="0.27447916666666666" />
       </map>
     </option>
   </component>

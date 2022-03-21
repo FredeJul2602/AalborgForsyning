@@ -15,13 +15,37 @@
         <include
             layout="@layout/main_toolbar"/>
 
-        <TextView
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Dashboard"
-            android:textSize="50dp"
-            android:textStyle="bold"
-            android:gravity="center" />
+            android:layout_height="match_parent">
+
+
+            <Button
+                android:id="@+id/btn_sorteringsguide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sorteringsguiden"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.043" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/data_view"
+                android:layout_width="409dp"
+                android:layout_height="57dp"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="107dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
     </LinearLayout>
 
     <RelativeLayout
@@ -30,7 +54,9 @@
         android:layout_gravity="start"
         android:background="@android:color/white">
 
-        <include
-            layout="@layout/main_nav_drawer"/>
+        <include layout="@layout/main_nav_drawer" />
     </RelativeLayout>
+
+
+
 </androidx.drawerlayout.widget.DrawerLayout>
